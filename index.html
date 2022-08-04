@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form name="myform">
+	<table border = "1px">
+		<th> S/N</th>
+		<th> Course code</th>
+		<th>Course Title</th>
+		<th>CA</th>
+		<th> Exam</th>
+		<th> Total</th>
+		<th> Grade</th>
+
+     <tr>
+ 	    <td>1</td>
+ 	    <td>COM 415</td>
+ 	   <td>Data commnuication and Networking</td>
+ 	   <td> <input type="number" name="txtCaCom415" placeholder="Enter CA score"></td>
+ 	   <td> <input type="numer" name="txtExamCom415" placeholder="Enter Exam score" ></td>
+ 	   <td> <input type="number" name="txtTotalCom415" placeholder="Total Score" disabled></td>
+ 	   <td> <input type="number" name="txtGradeCom415" placeholder="Grade" disabled></td>
+
+     </tr>
+     </table>
+</form>
+
+
+<button name="btnCal"  onclick="Calculate();"> Calculate </button>
+<button name="btnclear"> clear </button>
+<button name="btnprint" onclick="print('print')"> print </button>
+
+<script scr="index new.js"></script>
+</body>
+</html>
